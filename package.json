@@ -1,0 +1,42 @@
+{
+  "name": "hw-7.3",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --collectCoverage",
+    "eslint": "eslint",
+    "prettier": "prettier"
+  },
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/vendor/**"
+  ],
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrigoriyKaygorodtsev/HW-7.3.git"
+  },
+  "author": "Grigoriy Kaygorodtsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrigoriyKaygorodtsev/HW-7.3/issues"
+  },
+  "homepage": "https://github.com/GrigoriyKaygorodtsev/HW-7.3#readme",
+  "devDependencies": {
+    "coverage": "^0.4.1",
+    "jest": "^29.7.0"
+  }
+}
