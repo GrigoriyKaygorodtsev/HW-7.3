@@ -30,5 +30,23 @@ describe("Books names test suit", () => {
     expect(output).toEqual(expected);
 
   });
+
+  it("Books names should not be sorted", () => {
+    const input = [
+       "Старик и море",
+       "Старик и море",
+       "Старик и море",
+    ];
+    
+    const output = sorting.sortByName(input);
+ 
+    const expected = [     
+       "Старик и море",
+       "Старик и море",
+       "Старик и море",
+     ];
+ 
+     expect(output).toEqual(expected);
+  });
 });
  
